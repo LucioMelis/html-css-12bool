@@ -43,3 +43,11 @@
 .end{
     align-self: flex-end;
 }
+
+.space{
+    justify-content: space-around;
+}
+
+.between{
+    justify-content: space-between;
+}
