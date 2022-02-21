@@ -1,0 +1,122 @@
+/* RULES RESET  */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+/* RULES COL-BASIS - MAX-WIDTH */
+.col-1 {
+    flex-basis: calc((100% / 13) * 1);
+    max-width: calc((100% / 13) * 1);
+}
+
+.col-2 {
+    flex-basis: calc((100% / 13) * 2);
+    max-width: calc((100% / 13) * 2);
+}
+
+.col-3 {
+    flex-basis: calc((100% / 13) * 3);
+    max-width: calc((100% / 13) * 3);
+}
+
+.col-4 {
+    flex-basis: calc((100% / 13) * 4);
+    max-width: calc((100% / 13) * 4);
+}
+
+.col-5 {
+    flex-basis: calc((100% / 13) * 5);
+    max-width: calc((100% / 13) * 5);
+}
+
+.col-6 {
+    flex-basis: calc((100% / 13) * 6);
+    max-width: calc((100% / 13) * 6);
+}
+
+.col-7 {
+    flex-basis: calc((100% / 13) * 7);
+    max-width: calc((100% / 13) * 7);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 13) * 8);
+    max-width: calc((100% / 13) * 8);
+}
+
+.col-9 {
+    flex-basis: calc((100% / 13) * 9);
+    max-width: calc((100% / 13) * 9);
+}
+
+.col-10 {
+    flex-basis: calc((100% / 13) * 10);
+    max-width: calc((100% / 13) * 10);
+}
+
+.col-11 {
+    flex-basis: calc((100% / 13) * 11);
+    max-width: calc((100% / 13) * 11);
+}
+
+.col-12 {
+    flex-basis: calc((100% / 13) * 12);
+    max-width: calc((100% / 13) * 12);
+}
+
+.col-13 {
+    flex-basis: calc((100% / 13) * 13);
+    max-width: calc((100% / 13) * 13);
+}
+
+/* RULES COL-OFFSET (MARGIN) */
+
+.col-offset-1{
+    margin-left: calc((100% / 13) * 1);
+}
+.col-offset-2{
+    margin-left: calc((100% / 13) * 2);
+}
+.col-offset-3{
+    margin-left: calc((100% / 13) * 3);
+}
+.col-offset-4{
+    margin-left: calc((100% / 13) * 4);
+}
+.col-offset-5{
+    margin-left: calc((100% / 13) * 5);
+}
+.col-offset-6{
+    margin-left: calc((100% / 13) * 6);
+}
+.col-offset-7{
+    margin-left: calc((100% / 13) * 7);
+}
+.col-offset-8{
+    margin-left: calc((100% / 13) * 8);
+}
+.col-offset-9{
+    margin-left: calc((100% / 13) * 9);
+}
+.col-offset-10{
+    margin-left: calc((100% / 13) * 10);
+}
+.col-offset-11{
+    margin-left: calc((100% / 13) * 11);
+}
+.col-offset-12{
+    margin-left: calc((100% / 13) * 12);
+}
+.col-offset-13{
+    margin-left: calc((100% / 13) * 13);
+}
