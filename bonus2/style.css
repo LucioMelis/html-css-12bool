@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.square{
+    height: 20px;
+}
+
+.yellow{
+    background-color: #f4c949;
+}
+
+.red{
+    background-color: #f10909;
+}
+
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+
+.pink{
+    background-color: #e2bc98;
+}
