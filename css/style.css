@@ -27,3 +27,19 @@
 .generics-padding{
     padding: 20px;
 }
+
+.generics-padding-double {
+    padding: 40px;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.middle{
+    align-self: center;
+}
+
+.end{
+    align-self: flex-end;
+}
